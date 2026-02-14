@@ -9,10 +9,6 @@ workflows:
     triggering:
       events:
         - push
-        - pull_request
-      branch:
-        include:
-          - main
     scripts:
       - name: Install dependencies
         script: |
@@ -36,10 +32,6 @@ workflows:
     triggering:
       events:
         - push
-        - pull_request
-      branch:
-        include:
-          - main
     scripts:
       - name: Install dependencies
         script: |
